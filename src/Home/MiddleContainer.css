@@ -1,0 +1,133 @@
+.post_button {
+  background-color: white;
+  height: 45px;
+  border-radius: 30px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.378);
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+}
+
+.post_button:hover {
+  background-color: #cbcfd08e;
+}
+
+.font {
+  padding-left: 8px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell,
+    Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Emoji,
+    Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
+  color: gray;
+  text-transform: none;
+}
+
+.content {
+  font-family: Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Lucida Grande, Helvetica, Arial, sans-serif;
+  color: #000000e6;
+}
+
+.modal {
+  filter: blur(0px);
+}
+
+.modal modaldialog {
+  position: absolute;
+  top: 310;
+}
+
+.rightSideList {
+  padding: 0px;
+}
+
+.premiumProfile {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  color: #0073b1;
+  border-color: #0073b1;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.premiumGrid {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.rightlowerdiv {
+  position: sticky;
+  top: 65px;
+}
+
+.leftContainerName {
+  display: block;
+  text-align: center;
+  font-size: larger;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.leftContainerName:hover {
+  text-decoration: underline;
+}
+
+.commentButton {
+  border: 1px solid #b2b2b2;
+  width: 90%;
+  height: 35px;
+  border-radius: 22px 22px 22px 22px;
+  padding-left: 10px;
+}
+
+.commentContent {
+  background-color: #f2f2f2;
+  width: 90%;
+  border-radius: 0px 8px 8px 8px;
+}
+
+#commentname {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+#commenttext {
+  word-wrap: break-word;
+  padding: 10px;
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.commentlikebut {
+  font-size: 10px;
+  background-color: white;
+  border: none;
+  color: #857d7d;
+  margin-top: 1px;
+}
+
+.commentlikebut:hover {
+  background-color: #d4cecea9;
+  border-radius: 2px 2px 2px 2px;
+}
+
+.commentlikescount {
+  color: #857d7d;
+  font-size: 10px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.MuiSnackbar-root {
+  width: auto !important;
+  right: 24px !important;
+}

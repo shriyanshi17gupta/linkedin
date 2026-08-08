@@ -1,0 +1,117 @@
+.main_header {
+  display: flex;
+  justify-content: space-between;
+  height: 52px;
+  align-items: center;
+  z-index: 0;
+}
+
+.left_side {
+  display: flex;
+}
+
+.left_side img {
+  object-fit: contain;
+  height: 34.17px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.hearder_searchbar {
+  width: 260px;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  align-items: center;
+  height: 34px;
+  background-color: #eef3f8;
+  border-radius: 5px;
+}
+
+.hearder_searchbar > input {
+  outline: none;
+  border: none;
+  background: none;
+  color: gray;
+  width: 230px;
+}
+
+.headerOption {
+  /* background-color: black; */
+  position: relative;
+  top: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  color: gray;
+  cursor: pointer;
+}
+
+.headerOption :hover {
+  color: black;
+}
+
+.headerOption > button {
+  margin: 0px 10px 0px 10px;
+  border: none;
+  height: 10px;
+  padding-bottom: 20px;
+  margin: 0px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.right_side {
+  display: flex;
+}
+.right_side:hover {
+  color: black;
+}
+
+.headerOption_name {
+  height: 16px;
+  font-size: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.searchmenu {
+  position: relative;
+  top: 42px;
+  left: 230px;
+  background-color: white;
+  height: 200px;
+  width: 350px;
+  border: solid 1px rgb(140 140 140 / 20%);
+  border-radius: 5px;
+  z-index: 100;
+}
+
+/* .active {
+  text-decoration: underline;
+  background-color: black;
+} */
+
+.underline :focus {
+  border-bottom: 2px black solid;
+}
+
+.ForBusiness button {
+  border: 1px solid rgb(232 232 232);
+  max-width: 45px;
+  min-width: 45px;
+}
+
+.ForBusiness {
+  text-align: center;
+  font-size: 12px;
+  color: rgb(0 0 0/0.6);
+  padding: 10px;
+}
+
+/* ::-webkit-scrollbar {
+  visibility: hidden;
+  background-color: white;
+  z-index: 0;
+} */

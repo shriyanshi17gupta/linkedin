@@ -1,0 +1,99 @@
+.headericons > button {
+  border: none;
+  background-color: white;
+  color: gray;
+  cursor: pointer;
+  padding-left: 35px;
+}
+.headericons > button > span {
+  display: block;
+  /* background-color: black; */
+}
+
+.headericons > button:hover {
+  color: black;
+}
+
+.logoname {
+  color: #0a66c2;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: xx-large;
+  height: 80px;
+}
+
+.joinbut {
+  font-size: large;
+  border: none;
+  color: gray;
+  background-color: white;
+  margin-left: 20px;
+  height: 50px;
+  width: 120px;
+  border-radius: 25px 25px 25px 25px;
+}
+.joinbut:hover {
+  background-color: rgb(0 0 0 / 4%);
+}
+
+.signbut {
+  color: #0a66c2;
+  border-color: #0a66c2;
+  font-size: large;
+  background-color: white;
+  margin-left: 20px;
+  height: 50px;
+  width: 100px;
+  border-radius: 25px 25px 25px 25px;
+}
+.signbut:hover {
+  background-color: rgb(112 181 249 / 10%);
+}
+
+.divider {
+  color: black;
+  display: inline-block;
+  width: 20px;
+  height: 50px;
+  position: absolute;
+  top: 1px;
+}
+
+#forgotpass {
+  font-weight: 600;
+  font-size: larger;
+  color: #0a66c2;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+#forgotpass:hover {
+  text-decoration: underline;
+}
+
+#mainSignbut {
+  background-color: #0a66c2;
+  color: white;
+  text-transform: none;
+  height: 50px;
+  width: 400px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 30px 30px 30px 30px;
+  margin-bottom: 30px;
+}
+
+#mainSignbut:hover {
+  background-color: #194f86;
+}
+
+.loginglogo {
+  color: white;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: xx-large;
+  height: 100px;
+}
